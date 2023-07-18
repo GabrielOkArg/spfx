@@ -1,0 +1,48 @@
+
+.addrow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   width: 200px;
+
+
+    span{
+        margin-left: 5px;
+        color: #386304;
+        text-decoration: underline;
+        text-decoration-color: #386304;
+        cursor: pointer;
+    }
+}
+
+.continerbuton{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.butonsave{
+    background-color: #386304;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 10px 10px 5px 0px rgba(204,204,204,0.75);
+    cursor: pointer;
+}
+.backFormilarios{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.containerHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+

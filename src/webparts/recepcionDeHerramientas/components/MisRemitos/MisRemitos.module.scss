@@ -1,0 +1,53 @@
+/* Estilos del contenedor de la grilla */
+.grid-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px; /* Espacio entre las celdas */
+    background-color: #f3f3f3;
+    padding: 8px;
+  }
+  
+  /* Estilo del contenedor del encabezado */
+  .encabezado-container {
+    display: flex;
+    background-color: #ccc;
+    font-weight: bold;
+    padding: 8px;
+    align-items: center; /* Centrar verticalmente los elementos */
+  }
+  
+  /* Estilo de cada columna del encabezado */
+  .encabezado {
+    flex: 1; /* Ocupará todo el espacio disponible */
+    padding: 8px;
+    text-align: center;
+  }
+  
+  /* Estilo de cada fila de datos (item) */
+  .grid-row {
+    display: flex;
+    gap: 8px; /* Espacio entre las celdas */
+  }
+  
+  /* Estilo de cada celda de datos */
+  .item {
+    flex: 1; /* Ocupará todo el espacio disponible */
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+  }
+
+  .addRemito{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    text-decoration: underline;
+    cursor: pointer;
+    text-decoration-color: rgb(56, 99, 4);
+  }
+
+  .editbutton{
+    cursor:pointer;
+  }
+  

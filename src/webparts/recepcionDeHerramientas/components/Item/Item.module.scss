@@ -1,0 +1,14 @@
+.itemrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #D0DAD6;
+    align-items: center;
+    margin-top: 3px;
+}
+
+.partrow{
+    margin-right: 5px;
+}
